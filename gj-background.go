@@ -41,6 +41,7 @@ func newImage() string {
 			if os.Args[1] == f.alias {
 				randFolder = f.path
 				founded = true
+				break
 			}
 		}
 
