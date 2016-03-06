@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/djap96/gojobs/utils"
+	"github.com/djap96/gotasks/utils"
 )
 
 func getSubString(str, character string) string {

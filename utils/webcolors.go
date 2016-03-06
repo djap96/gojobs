@@ -153,6 +153,7 @@ var colors = map[string]string{
 	"yellowgreen":          "#9acd32",
 }
 
+//GetHexValue Give the hexadecimal value without '#' of web color alias
 func GetHexValue(colorAlias string) (string, bool) {
 	onlyValue, ok := colors[colorAlias]
 
