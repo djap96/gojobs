@@ -52,6 +52,6 @@ gt-background chicks
 ###GT MaxSound
 Change the sound capacity to 150% or whatever percentage, use at your own risk,,,
 ```
-gt-maxsound
+gt-maxsound [volume] [sink entity]
 gt-maxsound 200
 ```
