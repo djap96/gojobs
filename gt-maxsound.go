@@ -6,11 +6,17 @@ import (
 )
 
 func main() {
+
 	volume := "150%"
+	sinkEntity := "0"
 
 	if len(os.Args) > 1 {
 		volume = os.Args[1] + "%"
 	}
 
-	exec.Command("pactl", "set-sink-volume", "0", volume).Run()
+	if len(os.Args) > 2 {
+		sinkEntity = os.Args[2]
+	}
+
+	exec.Command("pactl", "set-sink-volume", sinkEntity, volume).Run()
 }
