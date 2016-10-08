@@ -1,5 +1,5 @@
 #Go Tasks
-[![Go Report Card](https://goreportcard.com/badge/github.com/djap96/gotasks)](https://goreportcard.com/report/github.com/djap96/gotasks)
+[![Go Report Card](https://goreportcard.com/badge/github.com/saintplay/gotasks)](https://goreportcard.com/report/github.com/saintplay/gotasks)
 
 ##Installation
 
@@ -27,18 +27,18 @@ To get more information about the command please run `gt-getbadge`
 ```
 gt-getbadge Stable v2.3.4
 ```
-[![Stable](http://djap96.github.io/gotasks/assets/stable.svg)](#)
+[![Stable](http://saintplay.github.io/gotasks/assets/stable.svg)](#)
 
 ```
 gt-getbadge Beta v3.1.1 c=tomato
 ```
-[![Beta](http://djap96.github.io/gotasks/assets/beta.svg)](#)
+[![Beta](http://saintplay.github.io/gotasks/assets/beta.svg)](#)
 
 
 ```
 gt-getbadge "Client Mode" "Not Supported" c=black
 ```
-[![Client](http://djap96.github.io/gotasks/assets/client.svg)](#)
+[![Client](http://saintplay.github.io/gotasks/assets/client.svg)](#)
 
 ###GT Background
 Change the background for your Gnome Desktop Enviroment, you need to change the directories in gt-background.go before install!
