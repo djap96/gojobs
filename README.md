@@ -1,7 +1,7 @@
-#Go Tasks
+# Go Tasks #
 [![Go Report Card](https://goreportcard.com/badge/github.com/saintplay/gotasks)](https://goreportcard.com/report/github.com/saintplay/gotasks)
 
-##Installation
+## Installation ##
 
 Get binary
 ```
@@ -16,10 +16,10 @@ go run gt-background
 go run gt-maxsound
 ```
 
-##Usage
+## Usage ##
 
 
-###GT GetBadge
+### GT GetBadge ###
 Get a custom badge from [shields.io api](http://shields.io) in your workspace quickly.  
 gt-getbadge support web color alias.
 To get more information about the command please run `gt-getbadge`
@@ -40,7 +40,7 @@ gt-getbadge "Client Mode" "Not Supported" c=black
 ```
 [![Client](http://saintplay.github.io/gotasks/assets/client.svg)](#)
 
-###GT Background
+### GT Background ###
 Change the background for your Gnome Desktop Enviroment, you need to change the directories in gt-background.go before install!
 
 ```
@@ -49,7 +49,7 @@ gt-background chicks
 ```
 "chicks" exists as alias in gt-background.go
 
-###GT MaxSound
+### GT MaxSound ###
 Change the sound capacity to 150% or whatever percentage, use at your own risk,,,
 ```
 gt-maxsound [volume] [sink entity]
